@@ -15,6 +15,60 @@
         android:layout_margin="20dp"
         android:textSize="20sp"
         android:textStyle="bold"/>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
+        <EditText
+            android:id="@+id/etFirst"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter First Number"/>
+    </com.google.android.material.textfield.TextInputLayout>
 
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/etSecond"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Second Number"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.button.MaterialButton
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnSum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sum"
+            />
+    </com.google.android.material.button.MaterialButton>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnSubtract"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Subtract"
+            />
+    </com.google.android.material.button.MaterialButton>
+    <com.google.android.material.button.MaterialButton
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnDivide"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Divide"
+            />
+    </com.google.android.material.button.MaterialButton>
 </LinearLayout>
