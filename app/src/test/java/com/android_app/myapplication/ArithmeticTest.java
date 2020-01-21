@@ -34,7 +34,7 @@ public class ArithmeticTest {
     public void testDivide(){
         Arithmetic arithmeticDiv = new Arithmetic();
         float expectedResult = 50;
-        float actualResult = arithmeticDiv.devide(100, 2);
+        float actualResult = arithmeticDiv.divide(100, 2);
         assertEquals(expectedResult,actualResult);
     }
     @After

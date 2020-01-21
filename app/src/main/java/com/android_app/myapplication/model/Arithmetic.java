@@ -7,7 +7,7 @@ public class Arithmetic {
     public float subtract(float f, float s){
         return f - s ;
     }
-    public float devide (float f , float s){
+    public float divide (float f , float s){
         return f / s ;
     }
 }
